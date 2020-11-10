@@ -1,2 +1,2 @@
-"Path\to\your\python executable\python.exe" "Path\to\where\the\main.py\file\is\located\main.py"
+"C:\Users\Minhaz\AppData\Local\Programs\Python\Python39\python.exe" "C:\Users\Minhaz\Downloads\Zoom-Automation\main.py"
 pause
