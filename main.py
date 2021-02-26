@@ -12,57 +12,74 @@ import time
 
 
 
-print('\n\n        Routine:\n')
-print('      09:00  10:00  11:00  12:00')
-print('Sat:         eun           mah\n')
-print('Sun:         eun           alm\n')
-print('mon:  kms    adn              \n')
-print('tue:  sho                  mah\n')
-print('wed:  kms    adn              \n\n')
+print('\n\n        Routine(HCI+ HPDS):\n')
+print('         09:00        10:00         11:00         12:00')
+print('Sat:  409/Graphics      -          425/HCI       475/Econ\n')
+print('Sun:  453/HPDS      405/Security   425/HCI       475/Econ\n')
+print('mon:  453/HPDS      405/Security   425/HCI       409/Graphics\n')
+print('tue:  453/HPDS          -              -             -   \n')
+print('wed:  405/Security      -          409/Graphics  475/Econ\n\n')
 
-teacher_name = input('Enter Teacher Name(e.g. kms / adn) according to correct day (e.g. kms for mon/wed , alm for sun): ')
-
+course_no = input('Enter Course No. (e.g. 405 / 475)')
+day_var = input('Enter day (e.g. mon/wed): ')
 meet_time = ""
 meet_id = ""
 password = ""
-if teacher_name == 'adn':
-	meet_id = '66958617778'
-	password = 'cse301'
-	meet_time='10:00'
+if course_no == '453':
+	meet_id = '  '
+	password = '  '
+	meet_time='09:00'
 	print("id %s"%meet_id)
 	print("pass %s"%password)
 	print("time %s"%meet_time)
-elif teacher_name == 'kms': 
-	 meet_id = '4766692101'
-	 password = '635467'
-	 meet_time='09:00'
-	 print("id %s"%meet_id)
-	 print("pass %s"%password)
-	 print("time %s"%meet_time)
-elif teacher_name == 'mah': 
-	 meet_id = '7998110539'
-	 password = '121121'
-	 meet_time='12:00'
+elif course_no == '405':
+	if day == 'wed' :
+	 	meet_id = '64689450739'
+	 	password = '405000'
+	 	meet_time='09:00'
+	 	print("id %s"%meet_id)
+	 	print("pass %s"%password)
+	 	print("time %s"%meet_time)
+	else : 
+	 	meet_id = '64689450739'
+	 	password = '405000'
+	 	meet_time='10:00'
+	 	print("id %s"%meet_id)
+	 	print("pass %s"%password)
+	 	print("time %s"%meet_time)
+elif course_no == '409':
+	if day == 'sat' :
+	 	meet_id = '62457340769'
+	 	password = '380007'
+	 	meet_time='09:00'
+	 	print("id %s"%meet_id)
+	 	print("pass %s"%password)
+	 	print("time %s"%meet_time)
+	elif day == 'mon' : 
+	 	meet_id = '62457340769'
+	 	password = '380007'
+	 	meet_time='12:00'
+	 	print("id %s"%meet_id)
+	 	print("pass %s"%password)
+	 	print("time %s"%meet_time)
+	elif day == 'wed' :
+	 	meet_id = '62457340769'
+	 	password = '380007'
+	 	meet_time='11:00'
+	 	print("id %s"%meet_id)
+	 	print("pass %s"%password)
+	 	print("time %s"%meet_time)	 		
+elif course_no == '425': 
+	 meet_id = '67578331133'
+	 password = '979274'
+	 meet_time='11:00'
 	 print("id %s"%meet_id)
 	 print("pass %s"%password)
 	 print("time %s"%meet_time)	
-elif teacher_name == 'eun': 
-	 meet_id = '9232649477'
-	 meet_time='10:00'
-	 print("id %s"%meet_id)
-	 print("pass %s"%password)
-	 print("time %s"%meet_time)
-elif teacher_name == 'sho': 
-	 meet_id = '66259669588'
-	 password = '321000'
-	 meet_time='09:00'
-	 print("id %s"%meet_id)
-	 print("pass %s"%password)
-	 print("time %s"%meet_time)
-elif teacher_name == 'alm': 
-	 meet_id = '6236249969'
-	 password = '547161'
-	 meet_time='12:00'
+elif course_no == '475': 
+	 meet_id = '92234188689'
+	 password = 'HxGcu9'
+	 meet_time='04:33'
 	 print("id %s"%meet_id)
 	 print("pass %s"%password)
 	 print("time %s"%meet_time)	 

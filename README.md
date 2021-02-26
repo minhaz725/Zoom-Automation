@@ -22,13 +22,17 @@ Original repo was from https://github.com/prashanth-up/Zoom-Automation and it's 
 
 * Right click to edit the run.bat and set the paths
   * First Path - "Path to where python is located"
-  * Second Path - "Path to where the main.py is located"
+  * Second Path - "Path to where the main.py is located" 
+
+* Open zoom , take ss and crop the 'join' button . Then rename it with "JoinIMG.png" & replace in this folder (see the existing joinIMG file in this folder)
 
 * Make sure the `joinING.png` is located in the same folder as `main.py` and `run.bat`
 
 * Run the `run.bat` to run the batch file (Alternatively you can also run the `main.py` for the same result but `run.bat` is preferred)
 
-* Finally see the routine & enter Teacher Name(e.g. kms / adn) according to correct day (e.g. kms for mon/wed , alm for sun): mah
+* Finally see the routine then enter course no.(format. 405/475) & day( format. sat/wed/sun)
+
+* Your zoom should run in bg, logged in.Plug in your pc and change the power option to "Never sleep".
 
 
 
@@ -38,7 +42,6 @@ Original repo was from https://github.com/prashanth-up/Zoom-Automation and it's 
 
 * check if zoom is updated
 
-* if still error occurs , open zoom , take ss and crop the 'join' button . Then rename it with "JoinIMG.png" & replace in this folder
 
 
 
