@@ -33,7 +33,7 @@ if course_no == '453':
 	print("pass %s"%password)
 	print("time %s"%meet_time)
 elif course_no == '405':
-	if day == 'wed' :
+	if day_var == 'wed' :
 	 	meet_id = '64689450739'
 	 	password = '405000'
 	 	meet_time='09:00'
@@ -48,21 +48,21 @@ elif course_no == '405':
 	 	print("pass %s"%password)
 	 	print("time %s"%meet_time)
 elif course_no == '409':
-	if day == 'sat' :
+	if day_var == 'sat' :
 	 	meet_id = '62457340769'
 	 	password = '380007'
 	 	meet_time='09:00'
 	 	print("id %s"%meet_id)
 	 	print("pass %s"%password)
 	 	print("time %s"%meet_time)
-	elif day == 'mon' : 
+	elif day_var == 'mon' : 
 	 	meet_id = '62457340769'
 	 	password = '380007'
 	 	meet_time='12:00'
 	 	print("id %s"%meet_id)
 	 	print("pass %s"%password)
 	 	print("time %s"%meet_time)
-	elif day == 'wed' :
+	elif day_var == 'wed' :
 	 	meet_id = '62457340769'
 	 	password = '380007'
 	 	meet_time='11:00'
@@ -77,9 +77,9 @@ elif course_no == '425':
 	 print("pass %s"%password)
 	 print("time %s"%meet_time)	
 elif course_no == '475': 
-	 meet_id = '92234188689'
-	 password = 'HxGcu9'
-	 meet_time='04:33'
+	 meet_id = ' '
+	 password = ' '
+	 meet_time='12:00'
 	 print("id %s"%meet_id)
 	 print("pass %s"%password)
 	 print("time %s"%meet_time)	 

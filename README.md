@@ -20,6 +20,8 @@ Original repo was from https://github.com/prashanth-up/Zoom-Automation and it's 
 # How to run the program :
 ##### Clone this repository and unzip it
 
+* Choose the course folder according to your course, copy main.py and paste it to Zoom-Automation folder
+
 * Right click to edit the run.bat and set the paths
   * First Path - "Path to where python is located"
   * Second Path - "Path to where the main.py is located" 
